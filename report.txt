@@ -1,0 +1,30 @@
+Created bucket: bg-safe-one
+Created bucket: bg-safe-two
+Created bucket: bg-risky-one
+Created bucket: bg-risky-two
+
+==== BUCKETGUARD REPORT ====
+
+Bucket: bg-safe-one
+   Public access blocked -> PASS
+   Encryption on -> PASS
+   Versioning on -> PASS
+   OVERALL -> PASS
+
+Bucket: bg-safe-two
+   Public access blocked -> PASS
+   Encryption on -> PASS
+   Versioning on -> PASS
+   OVERALL -> PASS
+
+Bucket: bg-risky-one
+   Public access blocked -> FAIL
+   Encryption on -> FAIL
+   Versioning on -> FAIL
+   OVERALL -> FAIL
+
+Bucket: bg-risky-two
+   Public access blocked -> FAIL
+   Encryption on -> FAIL
+   Versioning on -> FAIL
+   OVERALL -> FAIL
